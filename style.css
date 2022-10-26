@@ -1,0 +1,80 @@
+body {background-color: #99BBAD;}
+
+h1 {
+    color: #9A8194 30px; 
+    text-align: center; 
+    color: #9A8194;
+    font: bold;
+    font-size: 75px;
+} 
+
+.year{
+text-align: center;
+font: bold;
+font-size: 30px;
+color: #9A8194;
+}
+
+.ok1 {
+    float: left;
+    opacity: 2;
+}
+
+.tok1{
+text-align: center;
+font-size: 15px;
+color: #9A8194;
+font: bold;
+}
+
+.ok2{
+    float: left;
+    opacity: 2;
+}
+
+.tok2{
+    text-align: center;
+    font-size: 15px;
+    color: #9A8194;
+    font: bold;
+}
+
+
+.tok3{
+    text-align: center;
+    font-size: 15px;
+    color: #9A8194;
+    font: bold; 
+}
+
+.tok4{
+    text-align: center;
+    font: bolder;
+    font-size: 15px;
+    color: #9A8194;
+}
+
+.tok6{
+    text-align: center;
+    font: bolder;
+    font-size: 15px;
+    color: #9A8194;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
